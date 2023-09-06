@@ -1,0 +1,816 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.titulo-principal {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.titulo-principal {
+  text-align: center;
+  position: relative;
+}
+
+.titulo-principal:before,
+.titulo-principal:after {
+  content: "";
+  width: 38%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 65%;
+}
+.titulo-principal:before {
+  left: 0;
+}
+.titulo-principal:after {
+  right: 0;
+}
+.imgTeste {
+  width: 100%;
+  height: auto;
+  display: flex;
+  word-wrap: wrap;
+  align-items: center;
+  overflow-x: scroll;
+}
+#reis-imagem2 {
+  height: 100px;
+}
+
+#cruzeiro-imagem-1942-1967 {
+  height: 100px;
+}
+
+#cruzeiro-novo-imagem {
+  height: 100px;
+}
+
+#cruzeiro-1967-1970 {
+  height: 100px;
+}
+
+#cruzado-imagem {
+  height: 100px;
+}
+
+#cruzado-novo-imagem {
+  height: 100px;
+}
+
+#Cruzeiro-1990-1993 {
+  height: 100px;
+}
+
+#cruzado-real-imagem {
+  height: 100px;
+}
+
+#real-imagem {
+  height: 100px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+}
+
+h1:before,
+h1:after {
+  content: "";
+  width: 23%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 65%;
+}
+h1:before {
+  left: 0;
+}
+h1:after {
+  right: 0;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#reis-paragrafo {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#titulo2-reis {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(51, 50, 54);
+}
+
+#reis-imagem {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+#titulo3-reis {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(51, 50, 54);
+}
+
+.lista-container {
+  margin: 20px;
+}
+
+ul {
+  margin: 20px;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#princesa-isabel {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+}
+
+#d-pedro1 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+}
+
+#d-pedro2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+}
+
+#cruzeiro-1942-1967-principal {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+h3:before,
+h3:after {
+  content: "";
+  width: 35%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+h3:before {
+  left: 0;
+}
+h3:after {
+  right: 0;
+}
+
+#cruzeiro-1942-1967 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: rgb(51, 50, 54);
+}
+
+#titulo3-cruzeiro1 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: rgb(51, 50, 54);
+}
+
+#Getúlio-Vargas {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+#Eurico-Gaspar-Dutra {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+#uscelino-Kubitschek {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+#cruzeiro-novo-titulo1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+#cruzeiro-novo-titulo1 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+#cruzeiro-novo-titulo1:before,
+#cruzeiro-novo-titulo1:after {
+  content: "";
+  width: 27%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+
+#cruzeiro-novo-titulo1:before {
+  left: 0;
+}
+
+#cruzeiro-novo-titulo1:after {
+  right: 0;
+}
+
+#cruzeiro-novo2 {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+#governantes-cruzeiro-novo {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: rgb(51, 50, 54);
+}
+
+#comparacao-cruzeiro-novo {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  color: rgb(51, 50, 54);
+}
+
+#Artur-Costa-Silva {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+#Emílio-Garrastazu-Médici {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+#Ernesto-Geisel {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+#João-Figueiredo {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.cruzeiro-1970-1986 {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.titulo-principal-cruzeiro-1970-1986 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+.titulo-principal-cruzeiro-1970-1986 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.titulo-principal-cruzeiro-1970-1986:before,
+.titulo-principal-cruzeiro-1970-1986:after {
+  content: "";
+  width: 33%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+.titulo-principal-cruzeiro-1970-1986:before {
+  left: 0;
+}
+.titulo-principal-cruzeiro-1970-1986:after {
+  right: 0;
+}
+
+.governantes-cruzeiro-1970-1986 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.comparacao-cruzeiro-1970-1986 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.Emílio-Garrastazu-Médici2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Ernesto-Geisel2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.João-Figueiredo2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.José-Sarney {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.cedula-cruzado {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.titulo-cruzado {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+.titulo-cruzado {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.titulo-cruzado:before,
+.titulo-cruzado:after {
+  content: "";
+  width: 35%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+.titulo-cruzado:before {
+  left: 0;
+}
+.titulo-cruzado:after {
+  right: 0;
+}
+
+.governo-cruzado {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.comparacao-cruzado {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.José-Sarney2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Itamar-Franco {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Fernando-Collor-Mello {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.cedula-cruzado-novo {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.titulo-cruzado-novo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+.titulo-cruzado-novo {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.titulo-cruzado-novo:before,
+.titulo-cruzado-novo:after {
+  content: "";
+  width: 32%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+.titulo-cruzado-novo:before {
+  left: 0;
+}
+.titulo-cruzado-novo:after {
+  right: 0;
+}
+
+.governo-cruzado-novo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.comparando-cruzadonovo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.José-Sarney3 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Fernando-Collor-Mello2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.cedula-cruzeiro-1990-1993 {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.titulo-principal-cruzeiro-1990-1993 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+.titulo-principal-cruzeiro-1990-1993 {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.titulo-principal-cruzeiro-1990-1993:before,
+.titulo-principal-cruzeiro-1990-1993:after {
+  content: "";
+  width: 35%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+.titulo-principal-cruzeiro-1990-1993:before {
+  left: 0;
+}
+.titulo-principal-cruzeiro-1990-1993:after {
+  right: 0;
+}
+
+.governantes-cruzeiro-1990-1993 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.comparacao-cruzeiro-1990-1993 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.Fernando-Collor-Mello3 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Itamar-Franco2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Fernando-Henrique-Cardoso {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.cedula-cruzeiro-real {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.titulo-principal-cruzeiro-real {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+.titulo-principal-cruzeiro-real {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.titulo-principal-cruzeiro-real:before,
+.titulo-principal-cruzeiro-real:after {
+  content: "";
+  width: 30%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+.titulo-principal-cruzeiro-real:before {
+  left: 0;
+}
+.titulo-principal-cruzeiro-real:after {
+  right: 0;
+}
+
+.governantes-cruzeiro-real {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.comparacao-cruzeiro-novo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.Fernando-Collor-Mello4 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Itamar-Franco3 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.cedula-real {
+  width: 50%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.titulo-principal-real {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+}
+
+.titulo-principal-real {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.titulo-principal-real:before,
+.titulo-principal-real:after {
+  content: "";
+  width: 35%;
+  height: 5px;
+  background: #96ed8d;
+  position: absolute;
+  top: 75%;
+}
+.titulo-principal-real:before {
+  left: 0;
+}
+.titulo-principal-real:after {
+  right: 0;
+}
+
+.governantes-reais {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.comparacao-real {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(51, 50, 54);
+  font-size: 30px;
+}
+
+.Itamar-Franco4 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Fernando-Henrique-Cardoso2 {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Luiz-Inácio-Lula-Silva {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Dilma-Rousseff {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Michel-Temer {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+.Jair-Bolsonaro {
+  margin: 20px;
+  padding: 0;
+  align-items: center;
+  height: 150px;
+}
+
+h4 .imagem {
+  max-width: 700px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #afedb3;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.bandeira1 {
+  width: 10%;
+}
+
+.bandeira-do-brasil {
+  background-color: rgb(0, 132, 0);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
